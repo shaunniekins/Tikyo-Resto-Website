@@ -1,0 +1,32 @@
+.about {
+  padding-top: 10vh;
+  align-items: center;
+  background: lighten($primary-color, 5%);
+  gap: 2rem;
+ 
+    .text-secondary {
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+  .img_span{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+  .container {
+    width: 70vw;
+    margin: 2rem auto 0 auto;
+    gap: 2em;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding-bottom: 5rem;
+
+  @media (max-width: 900px) {
+    p {
+      font-size: 15px;
+    }
+  }
+  
+}

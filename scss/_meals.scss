@@ -1,0 +1,46 @@
+.meals {
+  padding-top: 10vh;
+  align-items: center;
+  background-size: cover;
+  padding-bottom: 2rem;
+ 
+  .text-secondary {
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .menu {
+    width: 80vw;
+    margin: 2rem auto 0 auto;
+    gap: 2em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    &__meals {
+      background: lighten($primary-color, 10%);
+      padding: 2rem;
+      border-bottom: 5px solid $secondary-color;
+      
+      h2, h3 {
+        margin: 0.5rem 0;
+      }
+
+      &--cc {
+        display: grid;
+        grid-auto-flow: column;
+        text-align: left;
+        align-items: center;
+        
+        &--columns {
+          font-weight: 10;
+        }
+      }
+      
+    }
+  }
+  @media (max-width: 900px) {
+    .menu {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}

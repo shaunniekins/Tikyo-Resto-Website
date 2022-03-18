@@ -1,0 +1,27 @@
+.home {
+  height: 100%;
+  padding-top: 55vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: left;
+  padding-left: 10rem;
+  background: url('../img/pizza.jpg');
+  background-size: cover;
+
+  h2{
+    padding-top: 2vh;
+  }
+
+  &__name {
+    font-size: 5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid set-text-color($primary-color);
+
+    &--last {
+      color: $secondary-color;
+      font-weight: 700;
+    }
+    
+  }
+}

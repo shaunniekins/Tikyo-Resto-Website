@@ -1,0 +1,15 @@
+.contact {
+  padding-top: 10vh;
+  align-items: center;
+  background-size: cover;
+  padding-bottom: 10vh;
+ 
+  .text-secondary {
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  &__info{
+    text-align: center;
+  }
+}
